@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/voiceoceanllp/repositories/voice-ocian-next-js
+    - /bin/cp -R images $DEPLOYPATH
